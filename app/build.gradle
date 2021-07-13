@@ -62,5 +62,8 @@ dependencies {
     // LiveData
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version")
 
+    //activity ktx, by viewModels() 쓰려면
+    implementation("androidx.activity:activity-ktx:1.2.3")
+
 
 }
